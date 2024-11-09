@@ -6,7 +6,7 @@ export const UsuarioSchema = z.object({
 })
 
 export const UserInfoSchema = z.object({
-    udi: z.string(),
+    uid: z.string(),
     email: z.string().email().nullable(),
     rol: z.string()
 }).nullable()
